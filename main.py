@@ -8,14 +8,3 @@ def twoSum(nums: List[int], target: int) -> List[int]:
             return [num_dict[nextnum], i]
         num_dict[num] = i
     return [] 
-if __name__ == "__main__":
-    # 테스트 케이스
-    nums = [3,3]
-    target = 6
-    
-    # 함수 호출
-    result = twoSum(nums, target)
-    
-    # 결과 출력
-    print(f"Input: nums = {nums}, target = {target}")
-    print(f"Output: {result}")
